@@ -1,0 +1,561 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.asking {
+  font-family: "Buda", cursive;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.active {
+  color: #f4f4f4;
+}
+
+.about-sec {
+  padding: 5%;
+}
+
+body {
+  background-color: #ffe01b;
+  color: #000000;
+}
+
+.best-therapist {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.best-therapist-sec {
+  padding: 5%;
+}
+
+.best-therapist img {
+  height: 400px;
+  width: 580px;
+}
+
+button {
+  transition: all 0.5s ease;
+  color: #fff;
+  border: 3px solid white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  background-color: transparent;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+button:hover {
+  color: #001f3f;
+  background-color: #fff;
+}
+
+.btn_two {
+  transition: all 0.5s ease;
+  color: #fff;
+  border: 3px solid white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  background-color: #f10a28;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
+}
+.btn_two:hover {
+  color: #001f3f;
+  background-color: #fff;
+}
+
+.circle {
+  position: absolute;
+  top: 50px;
+  left: -50px;
+  transform: rotate(90deg);
+  height: 100px;
+  width: 200px;
+  border-radius: 150px 150px 0px 0px;
+  background-color: black;
+  z-index: -1;
+}
+
+.circle-second {
+  position: absolute;
+  top: 230px;
+  right: -50px;
+  transform: rotate(90deg);
+  height: 100px;
+  width: 200px;
+  border-radius: 0px 0px 150px 150px;
+  background-color: black;
+  z-index: -1;
+}
+
+.couples {
+  background: url("https://img.craiyon.com/2023-03-26/774b1e5497004c13a5770d7c3c8a37bf.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-div {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Buda", cursive;
+  color: #fdfdfd;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  height: 250px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card:hover {
+  color: #ffe01b;
+  background-color: #fff;
+}
+.card-sec {
+  margin-top: 80px;
+  padding: 2%;
+}
+
+.custom-shape-divider-top-1679818011 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -2;
+}
+
+.custom-shape-divider-top-1679818011 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 281px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1679818011 .shape-fill {
+  fill: #0e0c0c;
+}
+
+.counter-clock {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.counter-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding: 5%;
+}
+
+.discount_sec {
+  background-color: #0e0c0c;
+  text-align: center;
+  padding: 5%;
+  margin-top: 80px;
+}
+.discount_img {
+  width: 400px;
+  height: 200px;
+}
+
+.divider {
+  border-right: 4px solid red;
+  margin-right: 8px;
+}
+
+.dropbtn {
+  background-color: #4caf50;
+  color: white !important;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+footer {
+  color: white;
+  background-color: #000000;
+  text-align: center;
+  height: 200px;
+  padding: 5%;
+}
+
+.footer-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-links a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+.footer-img {
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+.home-therapy {
+  display: flex;
+  padding: 5%;
+  align-items: center;
+}
+
+.home-therapy img {
+  height: 400px;
+}
+.individual {
+  background: url("https://img.craiyon.com/2023-03-25/32a2ffc496a54cecb964f09a56ce6714.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  filter: invert(100%);
+  -webkit-filter: invert(70%);
+}
+
+.motto {
+  text-align: center;
+  padding: 10%;
+  margin-top: 50px;
+  position: relative;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 0px 15px;
+  color: #000000;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #0e0c0c;
+}
+
+.menu-link:hover {
+  color: white;
+}
+
+#menu-expand-collapse {
+  display: none;
+  cursor: pointer;
+}
+
+nav {
+  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255, 0);
+  font-family: "Alkatra", cursive;
+}
+
+.odometer-auto-theme {
+  width: 100px;
+}
+
+#responsive-menu-list {
+  display: flex;
+  gap: 15px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+
+.pay {
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Buda", cursive;
+}
+
+#responsive-menu-list {
+  padding: 10px 5px;
+}
+
+.section_divider {
+  position: relative;
+}
+
+.tag {
+  font-size: 4rem;
+  font-family: "Indie Flower", cursive;
+}
+
+.teen {
+  background: url("https://img.craiyon.com/2023-03-25/eba8e591607f43f3aa2c7895a9ab2b03.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.therapy-heading {
+  font-size: 2rem;
+  font-family: "Buda", cursive;
+  font-weight: bold;
+}
+
+.therapy-para {
+  font-size: 20px;
+  line-height: 2rem;
+  margin-top: 1.5rem;
+  text-align: justify;
+}
+
+.who_we_are {
+  width: 400px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .best-therapist {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .circle-second {
+    position: absolute;
+    top: 230px;
+    right: -50px;
+    transform: rotate(90deg);
+    height: 100px;
+    width: 200px;
+    border-radius: 0px 0px 150px 150px;
+    background-color: black;
+    z-index: -1;
+  }
+
+  .card-div {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .home-therapy {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  .card-div {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .circle-second {
+    position: absolute;
+    top: 230px;
+    right: -50px;
+    transform: rotate(90deg);
+    height: 100px;
+    width: 200px;
+    border-radius: 0px 0px 150px 150px;
+    background-color: black;
+    z-index: -1;
+  }
+  .home-therapy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .therapy-heading {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .active {
+    color: #f4f4f4;
+    background-color: #333;
+  }
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  .asking {
+    font-size: 1.2rem;
+  }
+
+  .best-therapist {
+    flex-direction: column;
+  }
+
+  .best-therapist img {
+    height: 400px;
+  }
+
+  .circle {
+    position: absolute;
+    top: 230px;
+    left: -50px;
+    transform: rotate(90deg);
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0px 0px;
+    background-color: black;
+    z-index: -1;
+  }
+
+  .counter-sec {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .counter-clock {
+    align-items: center;
+  }
+
+  .card {
+    justify-content: flex-end;
+    align-items: baseline;
+    color: #93f95c;
+  }
+
+  .card-sec {
+    margin-top: 220px;
+  }
+
+  .card-div {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card:hover {
+    color: white;
+  }
+
+  .discount_div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .footer-img {
+    width: 400px;
+  }
+
+  .home-therapy-sec {
+    margin-top: 20px;
+  }
+
+  .home-therapy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-therapy img {
+    height: 200px;
+  }
+
+  hr {
+    width: 200px;
+  }
+
+  #menu-expand-collapse {
+    display: block;
+    text-align: right;
+  }
+
+  .menu-link {
+    border-bottom: #e8c47d 1px solid;
+    border-right: #ccc 1px none;
+    display: block;
+  }
+
+  .menu-link:hover {
+    background-color: #333;
+  }
+  nav {
+    flex-wrap: wrap;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+  #responsive-menu-list {
+    display: none;
+    width: 100%;
+  }
+
+  .tag {
+    font-size: 2rem;
+  }
+  .therapy-heading {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
